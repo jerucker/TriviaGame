@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple JavaScript Quiz</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<script src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>A Basketball Quiz</h1>
+				<p>What do you know about hoops</strong></p>
+				<span id="timer"></span>
+				
+			</header>
+			<section>
+				<div id="results"></div>
+				<div id="results02"></div>
+				<form name="quizForm" onsubmit="return submitAnswers()">
+					<h3>Who is the GOAT.</h3>
+					<input type="radio" name="q1" value="a" id="q1a">a. Jordan<br>
+					<input type="radio" name="q1" value="b" id="q1b">b. Lebron<br>
+					<input type="radio" name="q1" value="c" id="q1c">c. Kobe<br>
+					<input type="radio" name="q1" value="d" id="q1d">d. Kareem Abdul Jabbar<br>
+					
+					<h3>2. What free agent will join Lebron in LA this summer?</h3>
+					<input type="radio" name="q2" value="a" id="q2a">a. kawhi leonard<br>
+					<input type="radio" name="q2" value="b" id="q2b">b. kevin durant<br>
+					<input type="radio" name="q2" value="c" id="q2c">c. kyrie irving<br>
+					<input type="radio" name="q2" value="d" id="q2d">d. No one<br>
+
+					<h3>3. What should the Lakers do with lonzo Ball?</h3>
+					<input type="radio" name="q3" value="a" id="q3a">a. Trade him<br>
+					<input type="radio" name="q3" value="b" id="q3b">b. Cut him<br>
+					<input type="radio" name="q3" value="c" id="q3c">c. Make him pay back his salary<br>
+					<input type="radio" name="q3" value="d" id="q3d">d. Send him home to his Dad<br>
+
+					<h3>4. Who has the best chance of beating Golden State this year?</h3>
+					<input type="radio" name="q4" value="a" id="q4a">a. Houston rockets<br>
+					<input type="radio" name="q4" value="b" id="q4b">b. Boston Celtics<br>
+					<input type="radio" name="q4" value="c" id="q4a">a. Philadelphia 76ers<br>
+					<input type="radio" name="q4" value="d" id="q4b">d. 1997 Chicago Bulls<br>
+
+					<h3>5. Best NBA Shoot of all time</h3>
+					<input type="radio" name="q5" value="a" id="q5a">a. Steph Curry<br>
+					<input type="radio" name="q5" value="b" id="q5b">b. Ray Allen<br>
+					<input type="radio" name="q5" value="c" id="q5c">c. Mahmoud Abdul-Rauf<br>
+					<input type="radio" name="q5" value="d" id="q5d">d. Reggie Miller<br>
+					<br><br>
+					<input type="submit" value="Submit Answers">
+				</form>
+			</section>
+			<footer>
+				
+			</footer>
+		</div>
+	</body>	
+</html>
